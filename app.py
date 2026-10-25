@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data"
+DATA = ROOT
 GREEN = "#286847"
 PALETTE = ["#286847", "#70ad85", "#e1a344", "#417b9e", "#8e70b3", "#c06b54"]
 YEARS_MASI = ["2021-22", "2022-23", "2023-24", "2024-25"]
